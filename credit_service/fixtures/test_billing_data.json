@@ -1,0 +1,144 @@
+[
+    {
+      "model": "credit_service.user",
+      "pk": 1,
+      "fields": {
+        "aadhar_id": "100000000001",
+        "name": "User LowScore",
+        "email_id": "lowscore@example.com",
+        "annual_income": "120000.00",
+        "credit_score": 300,
+        "created_at": "2025-04-29T13:00:00Z",
+        "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.user",
+      "pk": 2,
+      "fields": {
+        "aadhar_id": "100000000002",
+        "name": "User MedScore",
+        "email_id": "medscore@example.com",
+        "annual_income": "250000.00",
+        "credit_score": 580,
+        "created_at": "2025-04-29T13:00:00Z",
+        "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.user",
+      "pk": 3,
+      "fields": {
+        "aadhar_id": "100000000003",
+        "name": "User HighScore",
+        "email_id": "highscore@example.com",
+        "annual_income": "800000.00",
+        "credit_score": 900,
+        "created_at": "2025-04-29T13:00:00Z",
+        "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.user",
+      "pk": 4,
+      "fields": {
+        "aadhar_id": "100000000004",
+        "name": "User LowScore Income OK",
+        "email_id": "lowscore2@example.com",
+        "annual_income": "160000.00",
+        "credit_score": 300,
+        "created_at": "2025-04-29T13:00:00Z",
+        "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.loan",
+      "pk": 101,
+      "fields": {
+        "user": 2,
+        "loan_type": "Credit Card", "loan_amount": "3000.00", "interest_rate": "14.0", "term_period": 12,
+        "disbursement_date": "2025-03-30", "status": "Active", "principal_balance": "3000.00",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.loan",
+      "pk": 102,
+      "fields": {
+        "user": 2,
+        "loan_type": "Credit Card", "loan_amount": "4000.00", "interest_rate": "13.0", "term_period": 6,
+        "disbursement_date": "2025-01-29", "status": "Active", "principal_balance": "2500.50",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.bill",
+      "pk": 201,
+      "fields": {
+        "loan": 102, "billing_date": "2025-02-28", "due_date": "2025-03-15", "principal_component": "650.00", "interest_component": "43.33", "min_due_amount": "693.33", "amount_paid": "693.33", "status": "Paid",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.bill",
+      "pk": 202,
+      "fields": {
+        "loan": 102, "billing_date": "2025-03-30", "due_date": "2025-04-14", "principal_component": "675.20", "interest_component": "31.88", "min_due_amount": "707.08", "amount_paid": "707.08", "status": "Paid",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.loan",
+      "pk": 103,
+      "fields": {
+        "user": 3,
+        "loan_type": "Credit Card", "loan_amount": "4900.00", "interest_rate": "12.0", "term_period": 24,
+        "disbursement_date": "2025-04-19", "status": "Active", "principal_balance": "4900.00",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+      {
+      "model": "credit_service.loan",
+      "pk": 104,
+      "fields": {
+        "user": 3,
+        "loan_type": "Credit Card", "loan_amount": "2000.00", "interest_rate": "16.0", "term_period": 6,
+        "disbursement_date": "2025-01-15", "status": "Active", "principal_balance": "1200.75",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.bill",
+      "pk": 203,
+      "fields": {
+        "loan": 104, "billing_date": "2025-02-14", "due_date": "2025-03-01", "principal_component": "300.00", "interest_component": "26.30", "min_due_amount": "326.30", "amount_paid": "326.30", "status": "Paid",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.bill",
+      "pk": 204,
+      "fields": {
+        "loan": 104, "billing_date": "2025-03-16", "due_date": "2025-03-31", "principal_component": "310.00", "interest_component": "21.33", "min_due_amount": "331.33", "amount_paid": "331.33", "status": "Paid",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+      {
+      "model": "credit_service.bill",
+      "pk": 205,
+      "fields": {
+        "loan": 104, "billing_date": "2025-04-15", "due_date": "2025-04-30", "principal_component": "315.50", "interest_component": "15.79", "min_due_amount": "331.29", "amount_paid": "100.00", "status": "Partially Paid",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    },
+    {
+      "model": "credit_service.loan",
+      "pk": 105,
+      "fields": {
+        "user": 3,
+        "loan_type": "Credit Card", "loan_amount": "1500.00", "interest_rate": "13.5", "term_period": 4,
+        "disbursement_date": "2024-12-01", "status": "Closed", "principal_balance": "0.00",
+        "created_at": "2025-04-29T13:00:00Z", "updated_at": "2025-04-29T13:00:00Z"
+      }
+    }
+  ]
