@@ -67,4 +67,3 @@ You can view screenshots demonstrating sample API request/response cycles and wo
 
 ---
 
-This project covers the main requirements of the assessment, offering a working backend for credit-related tasks using Django and Celery.
