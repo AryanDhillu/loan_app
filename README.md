@@ -63,7 +63,7 @@ A Django-based finance backend where users can register, apply for loans, manage
 
 You can view screenshots demonstrating sample API request/response cycles and workflow results here:
 
-* [Sample API Output Screenshots](https://drive.google.com/file/d/1lVcTvM4DqdaoSzQ3-4xhRnq8FY0L_EpL/view?usp=sharing)
+* [Sample Output Screenshots](https://drive.google.com/file/d/1lVcTvM4DqdaoSzQ3-4xhRnq8FY0L_EpL/view?usp=sharing)
 
 ---
 
