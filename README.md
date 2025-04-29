@@ -10,7 +10,7 @@ A Django-based finance backend where users can register, apply for loans, manage
 * Loan Application
 * Atomic Payment Processing
 * Billing Generation (via Management Command)
-* Statement API 
+* Statement API
 
 ## Workflow Overview
 
@@ -59,6 +59,12 @@ A Django-based finance backend where users can register, apply for loans, manage
 * **Purpose:** Generate monthly bills (Requires external daily scheduling).
 * **Note:** Creates `Bill` for active loans due today (30-day cycle). Min Due = 3% Principal + 30 days Interest.
 
+## Sample Output Screenshots
 
+You can view screenshots demonstrating sample API request/response cycles and workflow results here:
+
+* [Sample API Output Screenshots](https://drive.google.com/file/d/1lVcTvM4DqdaoSzQ3-4xhRnq8FY0L_EpL/view?usp=sharing)
+
+---
 
 This project covers the main requirements of the assessment, offering a working backend for credit-related tasks using Django and Celery.
