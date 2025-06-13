@@ -1,4 +1,3 @@
-# Backend Intern Assessment
 
 ## Introduction
 
