@@ -1,7 +1,7 @@
 
 ## Introduction
 
-A Django-based finance backend where users can register, apply for loans, manage bills, make payments, and view account statements. Created for the SDE-Intern assessment.
+A Django-based finance backend where users can register, apply for loans, manage bills, make payments, and view account statements.
 
 ## Features
 
